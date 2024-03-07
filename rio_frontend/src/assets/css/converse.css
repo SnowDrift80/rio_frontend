@@ -1,0 +1,144 @@
+
+
+.full-page-container {
+    height: 100vh;
+    /* Ensure the container covers the entire viewport height */
+  }
+  
+  .headliner {
+    height: 10%;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    width: 97%;
+  }
+  .headline-wrapper {
+    float: right;
+  }
+  
+  .first-row {
+    height: 68%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .spacer {
+    height: 2%;
+    width: 97%;
+    /* Height of the spacer */
+  }
+  
+  .second-row {
+    display: flex; /* Change from position: absolute; to flex */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 200px;
+  
+  }
+  
+  .protocol-wrapper {
+    list-style-position: inside;
+    overflow-y: auto;
+    width: 100%;
+  }
+  
+  .content-wrapper {
+    /* Apply padding to create space between content and borders */
+    text-align: justify;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 15px;
+    /*width: 97%;*/
+  }
+  .textarea-height {
+    height: 100%;
+  
+  }
+  @media screen and (max-height: 740px) {
+      .first-row {
+        height: calc(68% - 25px - 10px); /* Adjust the height of the first row */
+        /* The calculation ensures that there's a minimum space of 10px between the first and second rows */
+      }
+    }
+    @media screen and (max-height: 640px) {
+      .first-row {
+        height: calc(68% - 50px - 10px); /* Adjust the height of the first row */
+        /* The calculation ensures that there's a minimum space of 10px between the first and second rows */
+      }
+    }
+    @media screen and (max-height: 540px) {
+      .first-row {
+        height: calc(68% - 75px - 10px); /* Adjust the height of the first row */
+        /* The calculation ensures that there's a minimum space of 10px between the first and second rows */
+      }
+    }
+    @media screen and (max-height: 440px) {
+      .first-row {
+        height: calc(68% - 100px - 10px); /* Adjust the height of the first row */
+        /* The calculation ensures that there's a minimum space of 10px between the first and second rows */
+      }
+    }
+    @media screen and (max-width: 1000px) and (max-height: 1040px) {
+      .second-row {
+        height: 200px;
+      }
+      .first-row {
+        height: calc(68% - 10px); /* Adjust the height of the first row */
+        /* The calculation ensures that there's a minimum space of 10px between the first and second rows */
+      }
+    }
+    @media screen and (max-width: 1000px) and (max-height: 940px) {
+      .second-row {
+        height: 200px;
+      }
+      .first-row {
+        height: calc(68% - 25px - 10px); /* Adjust the height of the first row */
+        /* The calculation ensures that there's a minimum space of 10px between the first and second rows */
+      }
+    }
+    @media screen and (max-width: 1000px) and (max-height: 840px) {
+      .second-row {
+        height: 200px;
+      }
+      .first-row {
+        height: calc(68% - 50px - 10px); /* Adjust the height of the first row */
+        /* The calculation ensures that there's a minimum space of 10px between the first and second rows */
+      }
+    }
+    @media screen and (max-width: 1000px) and (max-height: 740px) {
+      .second-row {
+        height: 200px;
+      }
+      .first-row {
+        height: calc(68% - 75px - 10px); /* Adjust the height of the first row */
+        /* The calculation ensures that there's a minimum space of 10px between the first and second rows */
+      }
+    }
+    @media screen and (max-width: 1000px) and (max-height: 640px) {
+      .second-row {
+        height: 200px;
+      }
+      .first-row {
+        height: calc(68% - 100px - 10px); /* Adjust the height of the first row */
+        /* The calculation ensures that there's a minimum space of 10px between the first and second rows */
+      }
+    }
+    @media screen and (max-width: 1000px) and (max-height: 540px) {
+      .second-row {
+        height: 200px;
+      }
+      .first-row {
+        height: calc(68% - 125px - 10px); /* Adjust the height of the first row */
+        /* The calculation ensures that there's a minimum space of 10px between the first and second rows */
+      }
+    }
+    @media screen and (max-width: 1000px) and (max-height: 440px) {
+      .second-row {
+        height: 200px;
+      }
+      .first-row {
+        height: calc(68% - 150px - 10px); /* Adjust the height of the first row */
+        /* The calculation ensures that there's a minimum space of 10px between the first and second rows */
+      }
+    }
+  
